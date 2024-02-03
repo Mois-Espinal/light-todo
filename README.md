@@ -24,4 +24,4 @@ Finally, move into src and run the installation wizard with the following
 ### 
 `cd src`
 ###
-`./install-wiz`
+`./install-wizard.out`
