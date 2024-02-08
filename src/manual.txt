@@ -1,0 +1,43 @@
+[HELP]
+This command is used to view the light todo manual
+in case of not knowing a command.
+-SYNTAX
+-help
+[ADD]
+This command is used to add a new task to the todo list
+-SYNTAX
+-add :NAME:
+[LIST]
+This command is used to list all the tasks in the todo list
+-SYNTAX
+-list
+[PRIORITIZE]
+This command is used to change the position of where a task is in the todo list
+-SYNTAX
+-prioritize :TASKID: :NEWID:
+TASKID represents the numeral position of the task like,
+1· Go outside
+2· Spend time on the computer
+So the NEWID is just the new numeral position of the task
+[COMPLETE]
+This command is used when you complete something on the todo list
+-SYNTAX
+-complete :TASKID:
+TASKID represents the numeral position of the task like,
+1· Go outside
+2· Spend time on the computer
+[DELETE]
+This command is used to delete a task
+-SYNTAX
+-delete :TASKID:
+TASKID represents the numeral position of the task like,
+1· Go outside
+2· Spend time on the computer
+[DUE]
+This command is used to add a date to a task to see when its due 
+-SYNTAX
+-due :TASKID: :DATE:
+TASKID represents the numeral position of the task like,
+1· Go outside
+2· Spend time on the computer
+DATE is just a date to make it due when that date
