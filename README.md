@@ -4,6 +4,7 @@
 ### Things to note:
 - This was inspired by todo.txt🖼️🎨
 - This project will be updated constantly for a while
+- This was made for linux operating systems
 # Installation
 #
 ## Clone the repository

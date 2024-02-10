@@ -20,13 +20,14 @@
  int params;
  switch(hashedCommand){ 
     //ADD COMMAND
-    std::ifstream todoList ("list.txt");
-    if (todoList.is_open())
-      todoList << "\n" << argv[2];
  case 1:
  {
-
- 
+     std::ofstream todoList ("list.txt");
+    if (todoList.is_open())
+    todoList << "\n";
+    for (int i = 2; i < sizeof(char*); i++) {
+        todoList << argv[i] << " ";
+    }
  break;
  }
  //HELP COMMAND
@@ -43,6 +44,18 @@
  std::ifstream todoList ("list.txt");
   if (todoList.is_open())
         std::cout << todoList.rdbuf();
+ break;
+ }
+ case 5:
+  {
+   
+        // WORK IN PROGRESS
+ break;
+ }
+ case 6:
+  {
+        //WORK IN PROGRESS
+       
  break;
  }
  default:
